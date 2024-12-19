@@ -458,5 +458,110 @@ margin: 25px 80px;
     letter-spacing: .055em;
     line-height: 2;
 }
+.register-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.register-card h2 {
+    margin-bottom: 20px;
+}
+.register-card label {
+    display: block;
+    margin-bottom: 10px; /* Space after label */
+    text-align: start;
+    margin-left: 50px;
+}
+.register-card input {
+    width: 80%;
+    height: 4px;
+    margin-bottom: 20px; /* Space after input */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.register-card button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.register-card a {
+    display: block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+.register-card a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+.login-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    width: 400px;
+    height: 500px;
+    
+}
+.login-card h2 {
+    text-align: center;
+    
+}
+.login-card label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 50px;
 
+}
+.login-card input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 40px;
+   
+  
+}
+.login-card button {
+   
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    margin-left: 50px;
+}
+.login-card a {
+    display: block;
+    margin-top: 30px;
+    margin-left: 100px;
+   color: black;
+    text-decoration: none;
+}
+.login-card a:hover{
+    text-decoration: underline;
+    color: #007bff;
+
+}
+.sub,.gs{
+    padding-right: 60px;
+    padding: 10px;
+    width: 300px;
+
+}
        
