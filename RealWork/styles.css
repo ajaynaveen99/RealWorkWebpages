@@ -200,6 +200,11 @@ select {
 
 
 }
+.top-label{
+    display: flex;
+    justify-content: space-between;
+
+}
 
 .bottom-label {
     display: flex;
