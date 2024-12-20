@@ -346,7 +346,7 @@ input[type="range"] {
     margin-left: 100px;
     margin-right: 100px;
 
-    height: 150vh;
+    height: 155vh;
 
 
 }
@@ -625,7 +625,7 @@ input[type="range"] {
 .login-card a {
     display: block;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 80px;
     color: black;
     text-decoration: none;
 }
