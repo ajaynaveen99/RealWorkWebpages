@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .check{
+            display: flex;
+            gap: 2px;
+            border: 3px solid black;
+
+        }
+        .check>div{
+            width: 20px;
+            height: 20px;
+            border: 3px solid black;
+        }
+        .second{
+            display:flex;
+            gap: 5px;
+            /* justify-content: space-between; */
+            border: 1px solid;
+            flex-wrap:wrap;
+            /* align-items:baseline ; */
+            height: 800px;
+            /* align-content: stretch; */
+            /* flex-direction: column; */
+
+
+            /* flex-direction: row-reverse; */
+            
+           
+
+        }
+        .second>div{
+
+            width: 200px;
+            height: 20px;
+            border: 3px solid rgb(228, 57, 57);
+        }
+        .all{
+            display: flex;
+            gap:3px;
+        }
+        .sep{
+            order:-3;
+            flex-shrink:2;
+            /* flex-grow: 5; */
+            /*  */
+            
+        }
+        .sep>div{
+            /* text-align: center;
+            margin-top: 50px;
+        */
+      
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <!-- <div class="all"> -->
+    <div class="check">
+        <div></div>
+        <div></div> </div>
+
+        <div class="second">
+        <div class="sep">0</div>
+        <div class="sp">1</div>
+        <!-- <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div></div> -->
+    </div>
+   
+</body>
+
+</html>

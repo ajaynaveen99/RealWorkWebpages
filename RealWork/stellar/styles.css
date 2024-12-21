@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background-color: #655295;
+}
+.top{
+    text-align: center;
+    margin-top: 100px;
+}
+.header>h1{
+    font-size: 3.25em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+   
+   color:#ffffff;
+  
+   
+}
+.header{
+    text-align: center;
+
+}
+.header{
+    line-height: 10.2px;
+   
+   
+}
+.header>div>p{
+
+    letter-spacing: -0.025em;
+    font-size: 1.25em;
+    color:#b1bbce;
+    line-height: 10.2px;
+}
+.header>div>p>span>a{
+line-height: 10.2px;
+text-decoration: none;
+    
+    color:#b1bbce;
+
+}
+.header>div>p>span>a:hover{
+    text-decoration: underline;
+
+}
+.nav-section{
+    width: 80%;
+    height: 100vh;
+    margin-top: 100px;
+    margin-left:150px;
+    margin-right: 150px;
+    background-color:#ffffff;
+    border-radius: 10px;
+}
