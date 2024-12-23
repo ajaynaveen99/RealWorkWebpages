@@ -45,7 +45,7 @@ text-decoration: none;
 }
 .nav-section{
     width: 80%;
-    height: 328vh;
+    height: 2500px;
     margin-top: 100px;
     margin-left:150px;
     margin-right: 150px;
@@ -55,6 +55,7 @@ text-decoration: none;
 .navbar{
     background-color:#f7f7f7;
     padding: 0.5em;
+    
 }
 .navbar>ul{
     display: flex;
@@ -426,10 +427,15 @@ th{
 }
 .bottom-link{
     text-align: center;
+    color: #c7bdbd ;
    
 }
-.bottom-link>.actions{
-    background-color: #dedbe6;
-    border-radius: 10px;
+.bottom-link>a{
+    color: #c7bdbd ;
+    text-decoration: none;
+
+}
+.bottom-link>a:hover{
+    text-decoration: underline;
 }
 
