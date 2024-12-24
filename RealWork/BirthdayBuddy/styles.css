@@ -1,17 +1,19 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #fee7fe;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 
-   
+
 }
-.container>div{
+
+.container>div {
     width: 450px;
     height: auto;
     padding: 10px 20px;
@@ -19,11 +21,13 @@ body{
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgb(215, 215, 215);
 }
-.container>div:hover{
+
+.container>div:hover {
     box-shadow: 10px 10px 25px rgb(187, 187, 187);
     transition: 0.3s;
 }
-.container>div>h3{
+
+.container>div>h3 {
     letter-spacing: 1;
     text-transform: capitalize;
     line-height: 0;
@@ -32,60 +36,64 @@ body{
     font-size: 1.953rem;
     margin-bottom: 2rem;
 }
-.container>div>div{
+
+.container>div>div {
     width: 100%;
     height: auto;
-   
+
 }
-.fistperson>div>img{
- 
-        width: 75px;
-        height: 75px;
-        border-radius: 50%;
-        box-shadow: var(--shadow-3);
-        object-fit: cover;
-        margin-top: 13px;
-       
-    }
-    .fistperson{
-        display: flex;
-        gap: 20px;
-    }
-    .fistperson>div>h4{
-        line-height: 0;
-       
-    }
-    .fistperson>div>p{
-        line-height: 1;
-    }
-    .fistperson>div>h4{
-        font-size: 1.563rem;
-        font-weight: 500;
+
+.fistperson>div>img {
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: var(--shadow-3);
+    object-fit: cover;
+    margin-top: 13px;
+
+}
+
+.fistperson {
+    display: flex;
+    gap: 20px;
+}
+
+.fistperson>div>h4 {
+    line-height: 0;
+
+}
+
+.fistperson>div>p {
+    line-height: 1;
+}
+
+.fistperson>div>h4 {
+    font-size: 1.563rem;
+    font-weight: 500;
     margin-bottom: .5rem;
 
-    
-    }
-    .btnn{
-        text-align: center;
-        padding-top: 20px;
-    }
-    .btn {
-        cursor: pointer;
-        color: white;
-        background:#d946ef;
-        border: transparent;
-        border-radius: 10px;
-        letter-spacing: 1px;
-        padding: .375rem .75rem;
-        width: 425px;
 
-       
-       
-       
-        
-    }
-    .btn:hover {
-        background-color: #a712be;
-       
-    }
+}
 
+.btnn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+    background: #d946ef;
+    border: transparent;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: .375rem .75rem;
+    width: 425px;
+
+}
+
+.btn:hover {
+    background-color: #a712be;
+
+}
