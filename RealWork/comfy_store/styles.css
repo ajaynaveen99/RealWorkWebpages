@@ -569,14 +569,13 @@ input[type="range"] {
     width: 100%;
 }
 
-.register-card a {
-    display: block;
-    margin-top: 20px;
-    color: black;
-    text-decoration: none;
+.register-card>form >p{
+  
+  text-align: center;
+  text-decoration: none;
 }
 
-.register-card a:hover {
+.register-card >form>p>a:hover {
     text-decoration: underline;
     color: #007bff;
 }
@@ -627,15 +626,13 @@ input[type="range"] {
     margin-left: 50px;
 }
 
-.login-card a {
-    display: block;
-    margin-top: 30px;
-    margin-left: 80px;
-    color: black;
-    text-decoration: none;
+.login-card>form>p{
+   text-align: center;
+    text-decoration:none;
+    
 }
 
-.login-card a:hover {
+.login-card>form>p>a:hover {
     text-decoration: underline;
     color: #007bff;
 
