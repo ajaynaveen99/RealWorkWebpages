@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.card{
+    width: 350px;
+    height: 350px;
+  background-color: rgb(226, 216, 216);
+  box-shadow: 8px 8px 20px 0px rgba(185, 85, 85, 0.08);
+    padding: 20px;
+}
+img{
+    padding-left: 10px;
+}
+button{
+    background-color:#E5EAF0;
+    border-radius: 10px;
+    color: #7C19EE;
+}
