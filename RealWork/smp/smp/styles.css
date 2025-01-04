@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     background-color: #655295;
@@ -381,4 +381,27 @@ body {
     text-decoration: underline;
 }
 
-@media 
+@media  */
+.progressBar{
+    width:100%;
+    min-height: 30px;
+   
+    border: 1px solid;
+  }
+  .display{
+    width: 20%;
+    background-color: aqua;
+    min-height: 30px;
+  }
+  .progressBar-two{
+    margin-top: 50px;
+    width:100%;
+    min-height: 30px;
+   
+    border: 1px solid;
+  }
+  .display-two{
+    width: 60%;
+    background-color: aqua;
+    min-height: 30px;
+  }
